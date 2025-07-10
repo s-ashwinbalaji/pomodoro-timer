@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import './FlipDigit.css'
+import './flipDigit.css'
 
 function FlipDigit({ value }) {
   const [prevValue, setPrevValue] = useState(value)
